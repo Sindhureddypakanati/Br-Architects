@@ -1,0 +1,190 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+.first{
+    display: inline-block;
+}
+.second{
+    display: inline-block;
+    position: absolute;
+    right: 10px;
+    
+}
+nav{
+    background-color:cornflowerblue;
+    position: sticky;
+    height: 25px;
+
+}
+
+a{
+    text-decoration: none;
+    padding: 10px;
+}
+#img{
+    width: 100%;
+}
+.overlay{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+}
+.br{
+    background-color:rgb(53, 47, 47); 
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    font-weight: bold;
+}
+.Architects{
+    color:white;
+    font-weight:lighter;
+
+}
+
+img{
+    width: 100%;
+    text-align: center;
+    background-color: white;
+}
+
+.container2{
+   margin-left: 10px;
+   display: flex;
+   flex-wrap: wrap;
+   gap: 10px;
+   padding-left: 10px;
+   
+    
+}
+.first{
+   position: relative;
+   width: 300px;
+   height: 300px;
+    
+}
+.first img{
+   width: 300px;
+   height: 300px;
+   object-fit: cover;
+   display: inline-block;
+    
+}
+.first p{
+   position: absolute;
+   top:0;
+   left: 0;
+   background-color: black;
+   color: white;
+   margin: 0;
+   padding: 8px;
+   font-weight: 200px;  
+      
+}
+.container3{
+   margin-left: 10px;
+   display: flex;
+   flex-wrap: wrap;
+   gap: 10px;
+   padding-left: 10px;
+}
+.image{
+   position: relative;
+   width: 300px;
+   height: 300px; 
+}
+.image img{
+   width: 300px;
+   height: 300px;
+   object-fit: cover;
+   display: inline-block;
+}
+p{
+
+   display: inline-block; 
+}
+h2{
+    color: black;
+    display: inline-block;
+    margin: 5px;
+}
+h4{
+    color: black;
+    margin: 5px;
+}
+p{
+    display: inline-block; 
+    margin: 5px;     
+}
+.button{
+   color: white;
+   background-color: black;
+   width: 100%;
+   border: 0px;
+   font-weight: 200px;
+   padding: 12px 24px;
+   border-radius: 10px;
+}
+.button:active{
+    background-color:#999;
+}
+
+.Container4{
+    /* padding-top: 100px; */
+    display: inline-block;
+    padding-left: 10px;
+    flex-wrap: wrap;
+    border-bottom-width: 80px;
+    
+}
+#Contact{
+  /* max-width: 600px; */
+  /* margin: 50px auto; */
+  margin-top: 150px;
+  padding: 60px;
+  padding-left: 0px;
+  font-family: sans-serif;
+
+}
+p{
+    margin:0;
+    padding:5px;
+    display:block;
+}
+
+input {
+    
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  width: 100%;
+}
+button {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 12px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #444;
+}
+.w3{
+    width:100%;
+    color:white;
+    background-color: black !important;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center !important;
+}
